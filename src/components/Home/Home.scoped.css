@@ -1,0 +1,40 @@
+.name {
+  font-size: 1.15rem;
+  color: #9C9C9C;
+  margin: 0;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 4em;
+  text-align: center;
+  font-weight: 500;
+  margin: 0;
+}
+
+.cta {
+  border: none;
+  padding: 0.6em  2.5em;
+  background: #31708E;
+  border-radius: 2em;
+  color: white;
+  font-size: 1rem;
+  margin: 2em 0;
+  cursor: pointer;
+}
+
+.desc {
+  color: #9C9C9C;
+  width: 65%;
+  text-align: center;
+  line-height: 1.5em;
+  margin: 0;
+}
+
+.headshot {
+  max-width: 100%;
+  width: 6.5em;
+  border-radius: 200em;
+  margin: 2em 0;
+  border: 3px solid #31708E;
+}

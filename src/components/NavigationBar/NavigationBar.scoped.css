@@ -1,0 +1,19 @@
+.nav-links {
+  z-index: 100;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background: #F8F9FB;
+  margin: 0;
+  padding: 1em;
+}
+
+.nav-links li {
+  margin-right: 2.5em;
+  color: #31708E;
+  font-weight: bold;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+

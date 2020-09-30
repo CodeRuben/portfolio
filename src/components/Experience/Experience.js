@@ -1,4 +1,5 @@
 import React from 'react';
+import './Experience.scoped.css';
 
 const Experience = () => {
   return (

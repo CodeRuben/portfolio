@@ -1,5 +1,6 @@
 import React from 'react';
 import headshot from '../../assets/person.jpg';
+import './Home.scoped.css';
 
 const Home = () => {
   return (

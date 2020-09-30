@@ -1,5 +1,6 @@
 import React from 'react';
 import sdsu from '../../assets/sdsu.jpg';
+import './Education.scoped.css';
 
 const Education = () => {
   return (

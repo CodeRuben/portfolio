@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './LinkBar.scoped.css';
 
 const LinkBar = (props) => {
   return (

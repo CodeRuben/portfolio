@@ -1,0 +1,40 @@
+.nav {
+  position: fixed;
+  z-index: 2;
+  left: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.nav-item {
+  width: 8px;
+  height: 8px;
+  background: #C4C4C4;
+  display: block;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.nav-item:hover, .nav-item-bar:hover {
+  font-weight: bold;
+}
+
+.nav-item-bar {
+  height: 80px;
+  width: 2px;
+  margin: 0 auto;
+  background: #C4C4C4;
+  font-size: 0.75rem;
+  display: flex;
+  color: #C4C4C4;
+  align-items: center;
+  cursor: pointer;
+}
+
+.nav-item-bar p {
+  height: 100%;
+  margin: 0;
+  margin-left: 1em;
+  display: flex;
+  align-items: center;
+}

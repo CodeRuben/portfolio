@@ -1,0 +1,19 @@
+.separator {
+  border-top: 2px solid #90BBD4;
+  position: relative;
+  margin-bottom: 1.5em;
+}
+
+.separator:before {
+  position: absolute;
+  width: 9em;
+  height: 0.35em;
+  background: #90BBD4;
+  content: '';
+  top: -0.45em;
+  left: 0;
+}
+
+#experience {
+  font-size: 0.95rem;
+}
