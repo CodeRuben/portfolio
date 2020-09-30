@@ -1,29 +1,26 @@
 import React, { useState } from 'react';
-import { Link, useLocation } from 'react-router-dom';
 
 const LinkBar = (props) => {
   return (
-    <div>
-      <nav className="nav">
-      <Link to={'/'}>
+    <nav className="nav">
+      <a href="#home">
         <div className="nav-item"></div>
         <div className="nav-item-bar"><p>Home</p></div> 
-      </Link>
-      <Link to={'/experience'}>
+      </a>
+      <a href="#experience">
         <div className="nav-item"></div>
         <div className="nav-item-bar"><p>Experience</p></div> 
-      </Link>
-      <Link to={'/education'}>
+      </a>
+      <a href="#education">
         <div className="nav-item"></div>
         <div className="nav-item-bar"><p>Education</p></div> 
-      </Link>
-      <Link to={'/education'}>
+      </a>
+      <a href="#education">
         <div className="nav-item"></div>
         <div className="nav-item-bar"><p>Contact</p></div>
         <div className="nav-item"></div>
-      </Link>
-      </nav>
-    </div>
+      </a>
+    </nav>
   )
 };
 
