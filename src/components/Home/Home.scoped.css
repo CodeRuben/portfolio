@@ -2,11 +2,11 @@
   font-size: 1.15rem;
   color: #9C9C9C;
   margin: 0;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 h1 {
-  font-size: 4em;
+  font-size: 3.5em;
   text-align: center;
   font-weight: 500;
   margin: 0;
@@ -21,6 +21,7 @@ h1 {
   font-size: 1rem;
   margin: 2em 0;
   cursor: pointer;
+  font-weight: 500;
 }
 
 .desc {
@@ -33,8 +34,12 @@ h1 {
 
 .headshot {
   max-width: 100%;
-  width: 6.5em;
+  width: 7.5em;
   border-radius: 200em;
   margin: 2em 0;
   border: 3px solid #31708E;
+}
+
+.hero {
+  margin-bottom: 2em;
 }

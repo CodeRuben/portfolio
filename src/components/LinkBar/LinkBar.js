@@ -5,18 +5,18 @@ const LinkBar = (props) => {
   return (
     <nav className="nav">
       <a href="#home">
-        <div className="nav-item"></div>
-        <div className="nav-item-bar"><p>Home</p></div> 
+        <div className="nav-item active"></div>
+        <div className="nav-item-bar active"><p>Home</p></div> 
+      </a>
+      <a href="#about">
+        <div className="nav-item active"></div>
+        <div className="nav-item-bar"><p>About</p></div> 
       </a>
       <a href="#experience">
         <div className="nav-item"></div>
         <div className="nav-item-bar"><p>Experience</p></div> 
       </a>
-      <a href="#education">
-        <div className="nav-item"></div>
-        <div className="nav-item-bar"><p>Education</p></div> 
-      </a>
-      <a href="#education">
+      <a href="#contact">
         <div className="nav-item"></div>
         <div className="nav-item-bar"><p>Contact</p></div>
         <div className="nav-item"></div>

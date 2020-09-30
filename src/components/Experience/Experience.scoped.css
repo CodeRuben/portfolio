@@ -1,3 +1,7 @@
+.container {
+  padding: 2em 1em 5em 1em;
+}
+
 .separator {
   border-top: 2px solid #90BBD4;
   position: relative;
@@ -15,5 +19,24 @@
 }
 
 #experience {
-  font-size: 0.95rem;
+  font-size: 0.925rem;
+}
+
+li {
+  margin-bottom: 0.65em;
+}
+
+.skill-row {
+  display: flex;
+  align-items: flex-start;
+}
+
+.skill-block {
+  padding: 0.65em 1.25em;
+  background: #31708F;
+  color: white;
+  border-radius: 2em;
+  font-size: 0.7rem;
+  font-weight: 500;
+  margin: 1.5em 0.5em 2em 0.5em;
 }

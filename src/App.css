@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Oxygen:300,400,500,600,700,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500,600,700,800&display=swap');
 
 :root {
   --main-bg-color: #3F4B58;
@@ -13,7 +13,7 @@ body {
 }
 
 body {
-  font-family: 'Oxygen', sans-serif;
+  font-family: Rubik', sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -46,12 +46,13 @@ a {
 
 section {
   height: 100%;
-  min-height: 99vh;
+  min-height: 95vh;
   display: flex;
   align-items: center;
   justify-content: center;
   transition-delay: 0.5s;
   background: #F8F9FB;
+  background: #FFF;
   color: #31708F;
   flex: 1 1 100%;
 }

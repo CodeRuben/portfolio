@@ -16,7 +16,7 @@
 }
 
 .nav-item:hover, .nav-item-bar:hover {
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .nav-item-bar {
@@ -37,4 +37,10 @@
   margin-left: 1em;
   display: flex;
   align-items: center;
+}
+
+.active {
+  background: #31708F;
+  color: #31708F;
+  font-weight: 500;
 }

@@ -5,6 +5,7 @@
   justify-content: flex-end;
   align-items: center;
   background: #F8F9FB;
+  background: #FFF;
   margin: 0;
   padding: 1em;
 }
@@ -12,7 +13,7 @@
 .nav-links li {
   margin-right: 2.5em;
   color: #31708E;
-  font-weight: bold;
+  font-weight: 500;
   font-size: 0.9rem;
   cursor: pointer;
 }
