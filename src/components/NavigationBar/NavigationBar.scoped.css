@@ -10,7 +10,7 @@
   padding: 1em;
 }
 
-.nav-links li {
+.nav-links li a {
   margin-right: 2.5em;
   color: #31708E;
   font-weight: 500;

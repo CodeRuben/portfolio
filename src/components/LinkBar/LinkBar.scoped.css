@@ -6,15 +6,6 @@
   transform: translateY(-50%);
 }
 
-.nav-item {
-  width: 8px;
-  height: 8px;
-  background: #C4C4C4;
-  display: block;
-  border-radius: 50%;
-  cursor: pointer;
-}
-
 .nav-item:hover, .nav-item-bar:hover {
   font-weight: 500;
 }
@@ -29,6 +20,30 @@
   color: #C4C4C4;
   align-items: center;
   cursor: pointer;
+  position: relative;
+}
+
+.nav-item-bar:before {
+  position: absolute;
+  content: '';
+  width: 4px;
+  height: 4px;
+  border-radius: 1em;
+  background: #31708f;
+  top: 0;
+  left: -1px;
+  right: 0;
+}
+
+.nav-item-bar:after {
+  position: absolute;
+  content: '';
+  width: 4px;
+  height: 4px;
+  background: #31708f;
+  border-radius: 1em;
+  left: -1px;
+  bottom: -4px;
 }
 
 .nav-item-bar p {

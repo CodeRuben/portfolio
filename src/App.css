@@ -13,7 +13,7 @@ body {
 }
 
 body {
-  font-family: Rubik', sans-serif;
+  font-family: 'Rubik', sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -62,4 +62,23 @@ section {
   flex-direction: column;
   min-height: 100vh;
   margin: 0 auto;
+}
+
+.title {
+  font-size: 2.5em;
+  font-weight: 500;
+  text-align: center;
+  position: relative;
+}
+
+.titl:before {
+  position: absolute;
+  content: '';
+  width: 30%;
+  height: 0.25em;
+  left: 0;
+  top: 0.5em;
+  bottom: 0;
+  background: #31708F;
+  border-radius: 1em;
 }

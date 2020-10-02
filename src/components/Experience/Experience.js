@@ -4,7 +4,7 @@ import './Experience.scoped.css';
 const Experience = () => {
   return (
     <div id="experience" className="container">
-      <h2>Experience</h2>
+      <h2 className="title">Experience</h2>
       <div className="separator"></div>
       <div className="row">
         <div className="title-col">Work History</div>
@@ -61,4 +61,4 @@ const Experience = () => {
   )
 };
 
-export default Experience;
+export default React.memo(Experience);
