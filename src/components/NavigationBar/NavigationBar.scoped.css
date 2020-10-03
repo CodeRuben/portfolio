@@ -2,7 +2,7 @@
   z-index: 100;
   list-style: none;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
   background: #F8F9FB;
   background: #FFF;
@@ -10,7 +10,7 @@
   padding: 1em;
 }
 
-.nav-links li a {
+.nav-links a {
   margin-right: 2.5em;
   color: #31708E;
   font-weight: 500;
@@ -18,3 +18,7 @@
   cursor: pointer;
 }
 
+.logo {
+  width: 2.25em;
+  margin-left: 1em;
+}

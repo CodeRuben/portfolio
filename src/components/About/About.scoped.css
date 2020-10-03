@@ -14,6 +14,7 @@
 .row {
   width: 90%;
   margin: 0 auto;
+  gap: 1em;
 }
 
 .col {
@@ -24,7 +25,11 @@
 }
 
 .text-col {
-  flex: 1 1 40%;
+  flex: 1;
+}
+
+.icon-col {
+  flex: 1;
 }
 
 .text-content {
@@ -32,22 +37,38 @@
 }
 
 .skill-block {
-  padding: 1em;
-  height: 23em;
-  width: 20em;
-  background: white;
-  box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #E6ECF8;
+  margin-top: 1em;
+  padding: 0em 0em 3em 0em;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.card-header {
-  font-weight: 400;
-  font-size: 1.3em;
+img {
+  width: 3.5em;
 }
 
-.icon {
-  width: 12%;
+.skill-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+
+@media (min-width: 900px) { 
+  .skill-block {
+    padding: 0em 3em;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 1200px) { 
+  .row {
+    flex-direction: row;
+  }
 }

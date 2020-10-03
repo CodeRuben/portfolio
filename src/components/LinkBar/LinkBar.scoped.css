@@ -1,9 +1,5 @@
 .nav {
-  position: fixed;
-  z-index: 2;
-  left: 30px;
-  top: 50%;
-  transform: translateY(-50%);
+  display: none;
 }
 
 .nav-item:hover, .nav-item-bar:hover {
@@ -15,7 +11,7 @@
   width: 2px;
   margin: 0 auto;
   background: #C4C4C4;
-  font-size: 0.75rem;
+  font-size: 0.78rem;
   display: flex;
   color: #C4C4C4;
   align-items: center;
@@ -58,4 +54,15 @@
   background: #31708F;
   color: #31708F;
   font-weight: 500;
+}
+
+@media (min-width: 900px) { 
+  .nav {
+    display: unset;
+    position: fixed;
+    z-index: 2;
+    left: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
 }

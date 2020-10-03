@@ -3,7 +3,7 @@ import './Experience.scoped.css';
 
 const Experience = () => {
   return (
-    <div id="experience" className="container">
+    <div id="experience" className="container wrapper">
       <h2 className="title">Experience</h2>
       <div className="separator"></div>
       <div className="row">
@@ -50,7 +50,7 @@ const Experience = () => {
               <div className="skill-block">HTML</div> 
               <div className="skill-block">SCSS</div> 
               <div className="skill-block">Typescript</div> 
-              <div className="skill-block">PostgreSQl</div> 
+              <div className="skill-block">PostgreSQL</div> 
               <div className="skill-block">Linux</div> 
               <div className="skill-block">WPF</div> 
             </div>

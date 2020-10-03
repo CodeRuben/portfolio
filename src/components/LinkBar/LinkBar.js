@@ -11,15 +11,24 @@ const Link = (props) => {
   ) 
 }
 
+const isBetween = (current, low, high) => {
+  return current >= low && current < high;
+}
+
 const LinkBar = (props) => {
+  const thresholds = [25, 50, 90];
   return (
     <nav className="nav">
-      <Link elementId="#home" linkName="Home" isActive={true} />
-      <Link elementId="#about" linkName="About" />
-      <Link elementId="#experience" linkName="Experience" />
-      <Link elementId="#contact" linkName="Contact" />
+      <Link elementId="#home" linkName="Home" 
+        isActive={isBetween(props.scrollProgress, 0, thresholds[0])} />
+      <Link elementId="#about" linkName="About"
+        isActive={isBetween(props.scrollProgress, thresholds[0], thresholds[1])} />
+      <Link elementId="#experience" linkName="Experience"
+        isActive={isBetween(props.scrollProgress, thresholds[1], thresholds[2])} />
+      <Link elementId="#contact" linkName="Contact"
+        isActive={isBetween(props.scrollProgress, thresholds[2], 120)} />
     </nav>
   )
 };
 
-export default LinkBar;
+export default React.memo(LinkBar);

@@ -29,6 +29,7 @@ li {
 .skill-row {
   display: flex;
   align-items: flex-start;
+  flex-wrap: wrap;
 }
 
 .skill-block {
@@ -38,5 +39,27 @@ li {
   border-radius: 2em;
   font-size: 0.7rem;
   font-weight: 500;
-  margin: 1.5em 0.5em 2em 0.5em;
+  margin: 1.5em 0.5em 1em 0.5em;
+}
+
+.title-col {
+  align-self: flex-start;
+}
+
+.detail-col {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+@media (min-width: 900px) { 
+  .skill-block {
+    margin: 1.5em 0.5em 2em 0.5em;
+  }
+}
+
+@media (min-width: 1200px) { 
+  .wrapper {
+    width: unset;
+  }
 }

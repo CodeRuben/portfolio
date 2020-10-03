@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Home from '../src/components/Home/Home';
-import Education from '../src/components/Education/Education';
+import About from '../src/components/About/About';
 import Experience from '../src/components/Experience/Experience';
 import Contact from '../src/components/Contact/Contact';
 import LinkBar from './components/LinkBar/LinkBar';
@@ -8,22 +8,38 @@ import NavigationBar from './components/NavigationBar/NavigationBar';
 import './App.css';
 
 function App() {
-  const [currentTabIndex, updateCurrentTabIndex] = useState(0);
+  const [scrollProgress, setScrollProgress] = useState(0);
+  const scrollListener = (target) => {
+    if (!target.current)
+      return;
 
-  const tabChangeHandler = (index) => {
-    console.log(index);
-    updateCurrentTabIndex(index);
+    const element = target.current;
+    const totalHeight = element.clientHeight - element.offsetTop - (window.innerHeight);
+    const windowScrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+
+    if (windowScrollTop === 0) 
+      return setScrollProgress(0);
+
+    if (windowScrollTop > totalHeight) 
+      return setScrollProgress(100);
+
+    setScrollProgress(Math.trunc((windowScrollTop / totalHeight) * 100));
   };
+  
+  useEffect(() => {
+    window.addEventListener("scroll", () => scrollListener(target));
+    return () => window.removeEventListener("scroll", scrollListener);
+  });
 
-
+  const target = React.createRef();
   return (
-    <div className="container">
+    <div className="container" ref={target}>
       <NavigationBar />
-      <LinkBar activeTabIndex={currentTabIndex} />
-      <Home updateTab={() => tabChangeHandler(0)} />
-      <Education updateTab={() => tabChangeHandler(1)} />
-      <Experience updateTab={() => tabChangeHandler(2)} />
-      <Contact updateTab={() => tabChangeHandler(3)} />
+      <LinkBar scrollProgress={scrollProgress} />
+      <Home />
+      <About />
+      <Experience />
+      <Contact />
     </div>
   );
 } 

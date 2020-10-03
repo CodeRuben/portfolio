@@ -20,6 +20,8 @@ body {
 
 .row {
   display: flex;
+  align-items: center;
+  flex-direction: column;
   gap: 3em;
 }
 
@@ -81,4 +83,10 @@ section {
   bottom: 0;
   background: #31708F;
   border-radius: 1em;
+}
+
+@media (min-width: 900px) { 
+  .row {
+    flex-direction: row;
+  }
 }
