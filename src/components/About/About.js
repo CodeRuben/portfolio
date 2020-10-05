@@ -12,9 +12,9 @@ import linux from '../../assets/linux.png';
 import csharp from '../../assets/csharp.png';
 import java from '../../assets/java.png';
 
-const Education = () => {
+const Education = (props) => {
   return (
-    <div className="container" id="about">
+    <div className="container" ref={props.elementRef}>
       <div className="wrapper">
         <h2 className="title">About Me</h2>
         <div className="row">

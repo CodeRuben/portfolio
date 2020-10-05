@@ -1,9 +1,9 @@
 import React from 'react';
 import './Experience.scoped.css';
 
-const Experience = () => {
+const Experience = (props) => {
   return (
-    <div id="experience" className="container wrapper">
+    <div className="container wrapper" ref={props.elementRef}>
       <h2 className="title">Experience</h2>
       <div className="separator"></div>
       <div className="row">

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import Home from '../src/components/Home/Home';
 import About from '../src/components/About/About';
 import Experience from '../src/components/Experience/Experience';
@@ -8,6 +8,11 @@ import NavigationBar from './components/NavigationBar/NavigationBar';
 import './App.css';
 
 function App() {
+  const homeRef = useRef();
+  const aboutRef = useRef();
+  const experienceRef = useRef();
+  const contactRef = useRef();
+
   const [scrollProgress, setScrollProgress] = useState(0);
   const scrollListener = (target) => {
     if (!target.current)
@@ -34,12 +39,17 @@ function App() {
   const target = React.createRef();
   return (
     <div className="container" ref={target}>
-      <NavigationBar />
-      <LinkBar scrollProgress={scrollProgress} />
+      <LinkBar 
+        scrollProgress={scrollProgress} 
+        homeRef={homeRef} 
+        aboutRef={aboutRef} 
+        experienceRef={experienceRef} 
+        contactRef={contactRef} />
+      <NavigationBar elementRef={homeRef} contactRef={contactRef} />
       <Home />
-      <About />
-      <Experience />
-      <Contact />
+      <About elementRef={aboutRef} />
+      <Experience elementRef={experienceRef} />
+      <Contact elementRef={contactRef} />
     </div>
   );
 } 

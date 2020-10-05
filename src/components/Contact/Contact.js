@@ -1,9 +1,9 @@
 import React from 'react';
 import './Contact.scoped.css';
 
-const Contact = () => {
+const Contact = (props) => {
   return (
-    <section className="contact" id="contact">
+    <section className="contact" ref={props.elementRef}>
       <h2 className="title">Interested in working together?</h2>
       <a href="mailto:ruben1991@protonmail.com" className="email-btn">Email Me</a>
     </section>
