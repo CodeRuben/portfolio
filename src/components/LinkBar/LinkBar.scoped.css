@@ -7,8 +7,7 @@
 }
 
 .nav-item-bar {
-  height: 80px;
-  width: 2px;
+  width: 3px;
   margin: 0 auto;
   background: #C4C4C4;
   font-size: 0.78rem;
@@ -19,32 +18,10 @@
   position: relative;
 }
 
-.nav-item-bar:before {
-  position: absolute;
-  content: '';
-  width: 4px;
-  height: 4px;
-  border-radius: 1em;
-  background: #31708f;
-  top: 0;
-  left: -1px;
-  right: 0;
-}
-
-.nav-item-bar:after {
-  position: absolute;
-  content: '';
-  width: 4px;
-  height: 4px;
-  background: #31708f;
-  border-radius: 1em;
-  left: -1px;
-  bottom: -4px;
-}
-
 .nav-item-bar p {
   height: 100%;
   margin: 0;
+  padding: 2.5em 0;
   margin-left: 1em;
   display: flex;
   align-items: center;
