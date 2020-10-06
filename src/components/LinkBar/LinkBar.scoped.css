@@ -15,7 +15,6 @@
   color: #C4C4C4;
   align-items: center;
   cursor: pointer;
-  position: relative;
 }
 
 .nav-item-bar p {
@@ -28,8 +27,8 @@
 }
 
 .active {
-  background: #31708F;
-  color: #31708F;
+  background: var(--primary-color);
+  color: var(--primary-color);
   font-weight: 500;
 }
 

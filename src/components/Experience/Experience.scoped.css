@@ -34,7 +34,7 @@ li {
 
 .skill-block {
   padding: 0.65em 1.25em;
-  background: #31708F;
+  background: var(--primary-color);
   color: white;
   border-radius: 2em;
   font-size: 0.7rem;

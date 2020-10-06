@@ -5,7 +5,7 @@
   font-weight: 500;
 }
 
-h1 {
+.title {
   font-size: 3.5em;
   text-align: center;
   font-weight: 500;
@@ -40,7 +40,7 @@ h1 {
 
 .headshot {
   max-width: 100%;
-  width: 12em;
+  width: 11em;
   margin: 2em 0;
 }
 

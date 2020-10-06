@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500,600,700,800&display=swap');
 
 :root {
-  --main-bg-color: #3F4B58;
-  --card-color: #455261;
-  --accent-color: #1c97e3;
+  --primary-color: #31708E;
 }
 
 html,
@@ -52,9 +50,8 @@ section {
   align-items: center;
   justify-content: center;
   transition-delay: 0.5s;
-  background: #F8F9FB;
   background: #FFF;
-  color: #31708F;
+  color: var(--primary-color);
   flex: 1 1 100%;
 }
 
@@ -70,18 +67,6 @@ section {
   font-weight: 500;
   text-align: center;
   position: relative;
-}
-
-.titl:before {
-  position: absolute;
-  content: '';
-  width: 30%;
-  height: 0.25em;
-  left: 0;
-  top: 0.5em;
-  bottom: 0;
-  background: #31708F;
-  border-radius: 1em;
 }
 
 @media (min-width: 900px) { 
