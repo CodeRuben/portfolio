@@ -22,26 +22,6 @@
   font-size: 0.925rem;
 }
 
-li {
-  margin-bottom: 0.65em;
-}
-
-.skill-row {
-  display: flex;
-  align-items: flex-start;
-  flex-wrap: wrap;
-}
-
-.skill-block {
-  padding: 0.65em 1.25em;
-  background: var(--primary-color);
-  color: white;
-  border-radius: 2em;
-  font-size: 0.7rem;
-  font-weight: 500;
-  margin: 1.5em 0.5em 1em 0.5em;
-}
-
 .title-col {
   align-self: flex-start;
 }
