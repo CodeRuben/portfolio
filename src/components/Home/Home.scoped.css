@@ -53,21 +53,21 @@
     width: 65%;
   }
 
-  .title {
+  .name {
     white-space: nowrap;
     overflow: hidden;    
     margin: 0 auto;
   }
 
-  .title {
+  .name {
     border-right: solid 3px white;
     animation: animated-text 2s steps(20, end) 0.5s 1 normal both,
-              animated-cursor 600ms steps(25, end) 8;
+              animated-cursor 600ms steps(25, end) 7;
   }
 
   @keyframes animated-text{
     from { width: 0; }
-    to { width: 9.7em; }
+    to { width: 7.4em; }
   }
 
   @keyframes animated-cursor{
