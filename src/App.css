@@ -73,4 +73,8 @@ section {
   .row {
     flex-direction: row;
   }
+
+  .wrapper {
+    width: 75%;
+  }
 }

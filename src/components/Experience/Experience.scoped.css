@@ -24,6 +24,7 @@
 
 .title-col {
   align-self: flex-start;
+  flex-basis: 11%;
 }
 
 .detail-col {
@@ -40,6 +41,5 @@
 
 @media (min-width: 1200px) { 
   .wrapper {
-    width: unset;
   }
 }
