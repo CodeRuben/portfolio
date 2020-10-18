@@ -22,3 +22,10 @@
   border-radius: 0.35em;
   cursor: pointer;
 }
+
+@media (min-width: 1500px) { 
+  .contact {
+    min-height: 30vh;
+    gap: 1em;
+  }
+}

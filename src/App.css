@@ -78,3 +78,20 @@ section {
     width: 75%;
   }
 }
+
+@media (min-width: 1200px) { 
+  .wrapper {
+    width: 73%;
+  }
+}
+
+
+@media (min-width: 1500px) { 
+  body {
+    font-size: 19px;
+  }
+
+  .wrapper {
+    max-width: 1300px;
+  }
+}

@@ -22,3 +22,9 @@
   width: 2.25em;
   margin-left: 1em;
 }
+
+@media (min-width: 1500px) { 
+  .link {
+    font-size: 1.1rem;
+  }
+}

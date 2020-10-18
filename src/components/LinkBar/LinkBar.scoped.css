@@ -42,3 +42,10 @@
     transform: translateY(-50%);
   }
 }
+
+@media (min-width: 1500px) { 
+  .nav-item-bar p {
+    font-size: 0.9rem;
+    padding: 2em 0;
+  }
+}

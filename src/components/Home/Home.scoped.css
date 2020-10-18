@@ -75,3 +75,17 @@
     to { border-right-color: transparent; }
   }
 }
+
+@media (min-width: 1500px) { 
+  .hero {
+    margin-bottom: 5em;
+  }
+
+  .name {
+    font-size: 1.3rem;
+  }
+
+  .cta {
+    font-size: 1.2rem;
+  }
+}
