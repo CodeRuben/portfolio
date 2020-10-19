@@ -48,7 +48,7 @@ img {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 2em;
+  gap: 2.5em;
 }
 
 @media (min-width: 900px) { 
