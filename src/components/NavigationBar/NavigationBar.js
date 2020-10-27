@@ -1,6 +1,6 @@
 import React from 'react';
 import './NavigationBar.scoped.css';
-import code from '../../assets/code.svg';
+import code from '../../assets/coding.png';
 
 const NavigationBar = (props) => {
   const handleClick = (ref) => {
