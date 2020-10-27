@@ -22,12 +22,12 @@
   font-weight: 600;
   transition: 0.3s;
   color: white;
-  background: #31708E;
-  border: 2px solid #31708E;
+  background: var(--primary-color);
+  border: 2px solid var(--primary-color)
 }
 
 .cta:hover {
-  color: #31708E;
+  color: var(--primary-color);
   background: white;
 }
 

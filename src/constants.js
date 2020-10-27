@@ -47,4 +47,64 @@ export const jobData = [
 			"C#"
 		]	
 	}
-]
+];
+
+export const skillData = [
+	{
+		"title": "UI Design",
+		"description": "I'm passionate about UI design and I feel that it's very important to incorporate good user design principles in application development. ",
+		"icon": require("./assets/paint.svg"),
+		"skills": [
+			{
+				"icon": require("./assets/figma.png"),
+				"background": "#F3F3F4" 
+			},
+			{
+				"icon": require("./assets/sketch.png"),
+				"background": "#FFF0D1" 
+			},
+			{
+				"icon": require("./assets/css.png"),
+				"background": "#D1E7F3" 
+			},
+		]
+	},
+	{
+		"title": "Front End Dev",
+		"description": "I have several years of experience in developing responsive web applications with modern frameworks such as Angular and React.",
+		"icon": require("./assets/console.svg"),
+		"skills": [
+			{
+				"icon": require("./assets/angular.png"),
+				"background": "#F9D6D7" 
+			},
+			{
+				"icon": require("./assets/react.png"),
+				"background": "#E1F9FF" 
+			},
+			{
+				"icon": require("./assets/javascript.png"),
+				"background": "#F2DF1E" 
+			},
+		]
+	},
+	{
+		"title": "Back End Dev",
+		"description": "I'm have experience writing server side code with .NET. I've created and maintained REST APIs with both Node.js and ASP.NET",
+		"icon": require("./assets/server.svg"),
+		"skills": [
+			{
+				"icon": require("./assets/git.png"),
+				"background": "#FAC7BE" 
+			},
+			{
+				"icon": require("./assets/net.svg"),
+				"background": "#CAB9DB" 
+			},
+			{
+				"icon": require("./assets/sql.svg"),
+				"background": "#A3BBCD" 
+			},
+		]
+	} 
+];
