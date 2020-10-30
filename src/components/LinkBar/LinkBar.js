@@ -20,7 +20,7 @@ const Link = (props) => {
 }
 
 const LinkBar = (props) => {
-  const thresholds = [25, 50, 90];
+  const thresholds = [25, 45, 75];
   return (
     <nav className="nav">
       <Link 
