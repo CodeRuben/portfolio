@@ -36,8 +36,8 @@ const LinkBar = (props) => {
         linkName="Experience"
         isActive={isBetween(props.scrollProgress, thresholds[1], thresholds[2])} />
       <Link 
-        elementRef={props.contactRef} 
-        linkName="Contact"
+        elementRef={props.projectsRef} 
+        linkName="Projects"
         isActive={isBetween(props.scrollProgress, thresholds[2], 120)} />
     </nav>
   )

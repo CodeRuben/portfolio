@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import Home from '../../components/Home/Home';
 import About from '../../components/About/About';
 import Experience from '../../components/Experience/Experience';
+import Projects from '../../components/Projects/Projects';
 import Contact from '../../components/Contact/Contact';
 import LinkBar from '../../components/LinkBar/LinkBar';
 import NavigationBar from '../../components/NavigationBar/NavigationBar';
@@ -10,6 +11,7 @@ function Portfolio() {
   const homeRef = useRef();
   const aboutRef = useRef();
   const experienceRef = useRef();
+  const projectsRef = useRef();
   const contactRef = useRef();
 
   const [scrollProgress, setScrollProgress] = useState(0);
@@ -43,12 +45,14 @@ function Portfolio() {
         homeRef={homeRef} 
         aboutRef={aboutRef} 
         experienceRef={experienceRef} 
+        projectsRef={projectsRef}
         contactRef={contactRef} />
       <NavigationBar elementRef={homeRef} contactRef={contactRef} />
       <Home />
       <About elementRef={aboutRef} />
       <Experience elementRef={experienceRef} />
-      <Contact elementRef={contactRef} />
+      <Projects elementRef={projectsRef} />
+      <Contact elementRef={contactRef} homeRef={homeRef} />
     </div>
   );
 } 
