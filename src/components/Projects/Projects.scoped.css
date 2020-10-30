@@ -1,0 +1,13 @@
+.container {
+  background: #F8F9FB;
+  text-align: left;
+  width: 100%;
+  padding-top: 1em;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4em;
+}
