@@ -1,7 +1,7 @@
 import React from 'react';
 import './SkillCard.scoped.css';
 
-const SkillInfo = (props) => {
+const SkillCard = (props) => {
   const data = props.data;
   return (
     <div className="card col">
@@ -19,4 +19,4 @@ const SkillInfo = (props) => {
   )
 };
 
-export default React.memo(SkillInfo);
+export default React.memo(SkillCard);

@@ -3,7 +3,7 @@
 }
 
 .nav-item:hover, .nav-item-bar:hover {
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .nav-item-bar {
@@ -15,6 +15,7 @@
   color: #C4C4C4;
   align-items: center;
   cursor: pointer;
+  font-weight: 700;
 }
 
 .nav-item-bar p {
@@ -29,7 +30,6 @@
 .active {
   background: var(--primary-color);
   color: var(--primary-color);
-  font-weight: 500;
 }
 
 @media (min-width: 900px) { 
