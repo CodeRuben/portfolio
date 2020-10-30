@@ -15,4 +15,4 @@ const NavigationBar = (props) => {
   )
 };
 
-export default NavigationBar;
+export default React.memo(NavigationBar);

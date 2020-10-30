@@ -17,4 +17,4 @@ const Projects = (props) => {
   )
 };
 
-export default Projects;
+export default React.memo(Projects);
