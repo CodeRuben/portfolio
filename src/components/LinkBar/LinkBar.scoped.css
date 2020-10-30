@@ -2,10 +2,6 @@
   display: none;
 }
 
-.nav-item:hover, .nav-item-bar:hover {
-  font-weight: 700;
-}
-
 .nav-item-bar {
   width: 3px;
   margin: 0 auto;
