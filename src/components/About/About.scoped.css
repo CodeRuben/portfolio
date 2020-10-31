@@ -4,10 +4,10 @@
   text-align: left;
   width: 100%;
   padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 .skill-container {
-  gap: 1em;
   display: flex;
   align-items: stretch;
   flex-wrap: wrap;

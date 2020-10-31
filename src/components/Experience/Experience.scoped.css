@@ -30,7 +30,6 @@
 .detail-col {
   display: flex;
   flex-direction: column;
-  gap: 1em;
   font-weight: 600;
 }
 

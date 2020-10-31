@@ -5,7 +5,7 @@ const JobDescription = (props) => {
   const jobData = props.data;
 
   return (
-    <div>
+    <div className="job-description">
       <b>{jobData.jobTitle}</b> {jobData.dateRange}
       <br />
       <b>{jobData.company}, {jobData.location}</b>

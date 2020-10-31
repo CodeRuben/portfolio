@@ -20,14 +20,14 @@ const Contact = (props) => {
         <img src={arrow} alt="arrow" className="arrow-icon" />
       </div>
       <div className="wrapper btn-row">
-        <a href={githubUrl} target="_blank" rel="noopener noreferrer">
-          <img src={github} alt="github" className="link-icon" />
+        <a href={githubUrl} target="_blank" rel="noopener noreferrer" className="link-icon">
+          <img src={github} alt="github" />
         </a>
-        <a href={`mailto:${email}`}>
-          <img src={envelope} alt="email" className="link-icon" /> 
+        <a href={`mailto:${email}`} className="link-icon">
+          <img src={envelope} alt="email" /> 
         </a>
-        <a href={linkedinUrl} target="_blank" rel="noopener noreferrer">
-          <img src={linkedin} alt="linkedin" className="link-icon" />
+        <a href={linkedinUrl} target="_blank" rel="noopener noreferrer" className="link-icon">
+          <img src={linkedin} alt="linkedin" />
         </a>
       </div>
       <p className="copyright">Ruben Ramirez &#169; 2020</p>

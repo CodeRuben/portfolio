@@ -67,7 +67,7 @@
 
   @keyframes animated-text{
     from { width: 0; }
-    to { width: 7.4em; }
+    to { width: 7.2em; }
   }
 
   @keyframes animated-cursor{

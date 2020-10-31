@@ -32,11 +32,14 @@
   cursor: pointer;
 }
 
+.link-icon + .link-icon {
+  margin-left: 3em;
+}
+
 .btn-row {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 3em;
 }
 
 .copyright {

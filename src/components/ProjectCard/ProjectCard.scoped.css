@@ -66,3 +66,24 @@ h3 {
     width: 35%;
   } 
 }
+
+@media (min-width: 1500px) { 
+  .project-card {
+    width: 30%;
+  } 
+
+  h3 {
+    font-size: 1.65rem;
+  }
+
+  .sub-title {
+    margin: 0; 
+    margin-bottom: 0.75em;
+    font-size: 1.1rem;
+    text-align: center;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+}

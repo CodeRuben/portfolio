@@ -1,3 +1,7 @@
+.job-description + .job-description {
+  margin-top: 1em;
+}
+
 .work-details li {
   margin-bottom: 1em;
 }
