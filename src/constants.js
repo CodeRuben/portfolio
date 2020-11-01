@@ -108,3 +108,15 @@ export const skillData = [
 		]
 	} 
 ];
+
+export const projectData = [
+	{
+		"title": "Range Explorer",
+		"subTitle": "Poker Training Application",
+		"description": "Application allows users to view preflop ranges and simulate heads up scenarios. Users also log and review session results.",
+		"screenshots": [
+			require("./assets/range.svg"),
+			require("./assets/tracer.svg")
+		]
+	}
+]

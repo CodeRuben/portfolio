@@ -1,6 +1,7 @@
 import React from 'react';
 import './Projects.scoped.css';
 import ProjectCard from '../ProjectCard/ProjectCard';
+import { projectData } from '../../constants';
 
 const Projects = (props) => {
   return (
@@ -9,7 +10,14 @@ const Projects = (props) => {
         <h2 className="title">Recent Work</h2>
         <div className="-top-decorator"></div>
         <div className="center">
-          <ProjectCard /> 
+          {projectData.map((data, index) => (
+            <ProjectCard 
+              title={data.title} 
+              subTitle={data.subTitle} 
+              description={data.description} 
+              screenshots={data.screenshots}
+              key={index} />
+          ))}
         </div>
         <div className="-bottom-decorator"></div>
       </div>
