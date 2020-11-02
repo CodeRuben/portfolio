@@ -8,7 +8,6 @@ const Projects = (props) => {
     <div className="container" ref={props.elementRef}>
       <div className="wrapper">
         <h2 className="title">Recent Work</h2>
-        <div className="-top-decorator"></div>
         <div className="center">
           {projectData.map((data, index) => (
             <ProjectCard 
@@ -19,7 +18,6 @@ const Projects = (props) => {
               key={index} />
           ))}
         </div>
-        <div className="-bottom-decorator"></div>
       </div>
     </div>
   )

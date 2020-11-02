@@ -14,14 +14,12 @@
   padding: 1em 0.75em;
   position: relative;
   display: flex;
-  align-items: stretch;
   justify-content: center;
 }
 
 .screenshot {
   position: absolute;
   position: initial;
-  width: 56%;
   width: 85%;
   left: 1.5em;
   top: 1em;
