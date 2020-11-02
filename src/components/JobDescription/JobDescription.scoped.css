@@ -2,6 +2,10 @@
   margin-top: 1em;
 }
 
+.work-details {
+  padding-left: 1.75em;
+}
+
 .work-details li {
   margin-bottom: 1em;
 }
@@ -20,6 +24,12 @@
   font-size: 0.7rem;
   font-weight: 700;
   margin: 1.5em 0.5em 1em 0.5em;
+}
+
+@media (min-width: 600px) { 
+  .work-details {
+    padding-left: 2.5em;
+  } 
 }
 
 @media (min-width: 1500px) { 
