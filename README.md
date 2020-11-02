@@ -1,3 +1,3 @@
-Portfolio site for Ruben Ramirez. Visit site at coderuben.github.io/portfolio
+Portfolio site for Ruben Ramirez. Visit site [here](http://coderuben.github.io/portfolio)
 
-Site created with React
+Created with <b>React</b>
