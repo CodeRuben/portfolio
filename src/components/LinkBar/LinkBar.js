@@ -1,9 +1,6 @@
 import React from 'react';
 import './LinkBar.scoped.css';
-
-const isBetween = (current, low, high) => {
-  return current >= low && current < high;
-}
+import { pages } from '../../enums';
 
 const Link = (props) => {
   const handleLinkClick = (ref) => {
@@ -20,25 +17,24 @@ const Link = (props) => {
 }
 
 const LinkBar = (props) => {
-  const thresholds = [25, 45, 75];
   return (
     <nav className="nav">
       <Link 
         elementRef={props.homeRef} 
         linkName="Home" 
-        isActive={isBetween(props.scrollProgress, 0, thresholds[0])} />
+        isActive={props.activeLink === pages.HOME} />
       <Link 
         elementRef={props.aboutRef} 
         linkName="About"
-        isActive={isBetween(props.scrollProgress, thresholds[0], thresholds[1])} />
+        isActive={props.activeLink === pages.ABOUT} />
       <Link 
         elementRef={props.experienceRef} 
         linkName="Experience"
-        isActive={isBetween(props.scrollProgress, thresholds[1], thresholds[2])} />
+        isActive={props.activeLink === pages.EXPERIENCE} />
       <Link 
         elementRef={props.projectsRef} 
         linkName="Projects"
-        isActive={isBetween(props.scrollProgress, thresholds[2], 120)} />
+        isActive={props.activeLink === pages.PROJECTS} />
     </nav>
   )
 };
