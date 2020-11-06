@@ -1,19 +1,14 @@
 export const jobData = [
 	{
-		"jobTitle": "Full Stack Software Engineer",
+		"jobTitle": "Software Engineer 2",
 		"dateRange": "1/2018 to 7/2020",
 		"company": "Hologic Inc.",
 		"location": "San Diego, CA",
 		"workDetails": [
       "Worked on a commercial scale web application to work alongside Hologic diagnostic devices.",
-      "Created endpoints for REST API and Websocket.",
+			"Set up client-side localization infrastructure to support multiple languages.",
       "Responsive single page web application using Angular 8.",
       "Worked on JWT authentication system that handled user accounts of various authorization levels.",
-      "Set up client-side localization infrastructure to support multiple languages.",
-      "Automated load testing process that simulated maximum user workload.",
-      "Used Sketch app to design mockups of different pages of the application.",
-			"Involved in creating and reviewing software requirement specification documents.",
-			"Used SignalR to add real time functionality to client application."
 		],
 		"skills": [
 			"Angular",

@@ -6,15 +6,17 @@ const JobDescription = (props) => {
 
   return (
     <div className="job-description">
-      <b>{jobData.jobTitle}</b> {jobData.dateRange}
-      <br />
-      <b>{jobData.company}, {jobData.location}</b>
+      <div className="title-row">
+        <h3 className="job-title">{jobData.jobTitle}</h3> 
+        <p className="date-label">{jobData.dateRange}</p>
+      </div>
+      <p className="job-label">{jobData.company}, {jobData.location}</p>
       <ul className="work-details">
         {jobData.workDetails.map((detail, idx) => (
           <li key={idx}>{detail}</li>)
         )}
       </ul> 
-      <b>Technologies</b>
+      <h4 className="tech-label">Technologies</h4>
       <div className="skill-row">
         {jobData.skills.map((skill, idx) => (
           <div className="skill-block" key={idx}>{skill}</div>)
