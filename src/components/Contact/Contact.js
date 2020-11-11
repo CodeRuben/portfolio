@@ -8,7 +8,7 @@ import './Contact.scoped.css';
 const Contact = (props) => {
   const email = 'ruben1991@protonmail.com';
   const githubUrl = 'https://github.com/CodeRuben';
-  const linkedinUrl = '';
+  const linkedinUrl = 'https://www.linkedin.com/in/ruben-ramirez-0488291b9/';
 
   const handleHomeClick = (ref) => {
     ref.current.scrollIntoView({ behavior: 'smooth' });

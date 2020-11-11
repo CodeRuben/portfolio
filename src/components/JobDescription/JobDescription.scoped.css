@@ -1,6 +1,6 @@
 .job-description {
   box-shadow: 1px 3px 5px rgba(0,0,0,0.2);
-  padding: 2.5em 3em 2em 3em;
+  padding: 2em;
   border-radius: 0.5em;
   border: 1px solid #f0f0f0;
   border-top: 5px solid #90BBD4;
@@ -28,6 +28,7 @@
 
 .job-label {
   margin-top: 0;
+  text-align: center;
 }
 
 .work-details {
@@ -75,6 +76,10 @@
 }
 
 @media (min-width: 600px) { 
+  .job-description {
+    padding: 2.5em 3em 2em 3em;
+  }
+
   .work-details {
     padding-left: 2.5em;
   } 
@@ -85,6 +90,10 @@
 
   .job-title {
     margin: 0 0 0.5em 0;
+  }
+
+  .job-label {
+    text-align: left;
   }
 }
 
